@@ -1,0 +1,21 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+
+    <style name="CalcButtonStyle">
+        <item name="android:layout_width">0dp</item> <!-- Ширина кнопки будет зависеть от весов в GridLayout -->
+        <item name="android:layout_height">wrap_content</item> <!-- Высота кнопки зависит от содержимого -->
+        <item name="android:background">?attr/colorAccent</item> <!-- Цвет фона кнопок, используем акцентный цвет приложения -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Цвет текста кнопок -->
+        <item name="android:padding">16dp</item> <!-- Внутренние отступы кнопок -->
+        <item name="android:textSize">24sp</item> <!-- Размер текста кнопок -->
+        <item name="android:layout_margin">4dp</item> <!-- Отступы между кнопками -->
+        <item name="android:shadowColor">#000000</item> <!-- Цвет тени кнопок -->
+        <item name="android:shadowDx">0</item> <!-- Смещение тени по оси X -->
+        <item name="android:shadowDy">2</item> <!-- Смещение тени по оси Y -->
+        <item name="android:shadowRadius">4</item> <!-- Радиус размытия тени -->
+    </style>
+</resources>
